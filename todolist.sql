@@ -7,6 +7,8 @@ CREATE USER IF NOT EXISTS 'todolist'@'localhost' IDENTIFIED WITH mysql_native_pa
 
 GRANT ALL PRIVILEGES ON todolist.* TO 'todolist'@'localhost';
 
+FLUSH PRIVILEGES;
+
 USE todolist;
 
 CREATE TABLE IF NOT EXISTS `todo` (
