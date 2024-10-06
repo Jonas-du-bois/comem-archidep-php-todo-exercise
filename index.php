@@ -60,7 +60,7 @@ if (isset($_POST['action'])) {
 
       $id = $_POST['id'];
       if(is_numeric($id)) {
-        // IMPLEMENT ME
+        $deleteQuery = 'DELETE FROM todo WHERE id = ' . $id; // IMPLEMENTED BY THEO
         if(!$db->query($deleteQuery)) {
           die(print_r($db->errorInfo(), true));
         }
