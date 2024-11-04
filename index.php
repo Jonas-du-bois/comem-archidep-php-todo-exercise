@@ -10,7 +10,6 @@ define('BASE_URL', getenv('TODOLIST_BASE_URL') ?: '/');
 // Database connection parameters.
 define('DB_USER', getenv('DB_TODOLIST') ?: 'todolist');
 define('DB_PASS', value: getenv('TODOLIST_DB_PASS'));
-//define('DB_PASS', 'Economist1-Residency0-Nemesis0-Onlooker0');
 define('DB_NAME', getenv('NAME_TODOLIST') ?: 'todolist');
 define('DB_HOST', getenv('HOST_TODOLIST') ?: '127.0.0.1');
 define('DB_PORT', getenv('PORT_TODOLIST') ?: '3306');
